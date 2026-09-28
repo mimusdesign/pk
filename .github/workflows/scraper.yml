@@ -2,7 +2,7 @@ name: Scraper Pakistan
 
 on:
   schedule:
-    - cron: '53 5 * * *'
+    - cron: '26 0,6,12,18 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
